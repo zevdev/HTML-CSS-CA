@@ -1,11 +1,12 @@
-/* Use import to split up your CSS into manageable chunks */
-@import url("/reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
-@import url("/variables.css");
-/* Feel free to add as many of these imports as you need */
-
+@import url("./reset.css");
+@import url("./variables.css");
 @import url("./header.css");
+@import url("./about.css");
+@import url("./checkout.css");
+@import url("./contact.css");
+@import url("./formsuccess.css");
+@import url("./info.css");
+@import url("./payment.css");
 
 * {
   margin: 0;
