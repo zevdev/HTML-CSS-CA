@@ -5,7 +5,7 @@
 @import url("/variables.css");
 /* Feel free to add as many of these imports as you need */
 
-@import url("src/css/header.css");
+@import url("./header.css");
 
 * {
   margin: 0;
