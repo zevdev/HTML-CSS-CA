@@ -1,0 +1,48 @@
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header {
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-self: center;
+    gap: 16px;
+    font-size: 25px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+@media screen and (max-width:780px){
+  .logo {
+    position: static !important;
+  }
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  nav ul {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,122 @@
+@import url("/header.css");
+
+@import url("variables.css");
+
+@import url("reset.css");
+
+.container {
+    flex-wrap: wrap;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 75px;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    width: 445px;
+    height: auto;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.firstline {
+    padding: 10px 5px 100px 5px;
+
+}
+
+.secondline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+fieldset {
+    padding: 10px 5px 20px 5px;
+    display: flex;
+    gap: 20px;
+    border: none;
+    align-content: center;
+}
+
+.radiobutton {
+    display: flex;
+    gap: 2px;
+    align-content: center;
+}
+
+.cardscontainer {
+    font-size: 20px;
+}
+
+.cards {
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.cards2 {
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+input[type="text1"] {
+    background-color: #1E1E1E;
+    outline: 1px solid white;
+    border: none;
+    width: 400px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+input[type="text2"] {
+    width: 185px;
+    height: 50px;
+    background-color: #1E1E1E;
+    outline: 1px solid white;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buybutton {
+    font-size: 30px;
+    padding: 5px 10px;
+    outline: 1px solid white;
+    background-color: #0066FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}

@@ -1,0 +1,89 @@
+@import url("/header.css");
+
+@import url("variables.css");
+
+@import url("reset.css");
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.bigbox {
+    background-color: #1E1E1E;
+    height: 600px;
+    width: 650px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    width: 200px;
+    height: auto;
+    padding-right: 50px;
+  }
+
+  .box1 {
+    display: flex;
+    gap: 150px;
+    padding-top: 20px;
+    width: 600px;
+    margin: 10px;
+  }
+
+  .cards {
+    font-size: 20px;
+  }
+
+  .cards2 {
+    height: 200px;
+    width: 625px;
+  }
+
+  .submitbutton {
+    font-size: 30px;
+    margin-top: 25px;
+    color: white;
+    background-color: #111111;;
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .textbox {
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid white;
+  }
+
+  textarea {
+    background-color: #1E1E1E;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid white;
+    height: 350px;
+    width: 600px;
+  }
+
+  .cardbox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }

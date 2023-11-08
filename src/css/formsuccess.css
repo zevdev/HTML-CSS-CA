@@ -1,0 +1,32 @@
+@import url("/header.css");
+
+@import url("variables.css");
+
+@import url("reset.css");
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.backbox {
+        background-color: #1E1E1E;
+        height: 600px;
+        width: 650px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logo3 {
+        width: 350px;
+        height: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SquareEyes!</title>
+  <link rel="stylesheet" href="src/css/checkout.css">
+</head>
+<body>
+  <header>
+    <img src="assets/images/SquareEyes_Logo.png" alt="" class="logo">
+    <nav class="menu">
+    <ul>
+      <a href="index.html">Home</a>
+      <a href="checkout.html">Checkout</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </ul>
+  </nav>
+  </header>
+  <main>
+    <div class="container">
+        <div class="imagecontainer">
+            <img src="assets/images/Square_Eyes_Cover1.jpeg" alt="">
+        </div>
+        <div class="infocontainer">
+            <div class="firstline">
+                <h2>Fast & Furious:</h2>
+                <div class="secondline">
+                    <h4>Hobbs & Shaw</h4>
+                    <h4>99 Kr</h4>
+                </div>
+            </div>
+            <fieldset>
+                <div class="radiobutton">
+                    <input type="radio" class="checkbox" name="payment">
+                    <h4>Paypal</h4>
+                </div>
+                <div class="radiobutton">
+                    <input type="radio" class="checkbox" name="payment">
+                    <h4>VISA</h4>
+                </div>
+                <div class="radiobutton">
+                    <input type="radio" class="checkbox" name="payment">
+                    <h4>Mastercard</h4>
+                </div>
+            </fieldset>
+            <div class="cardbox">
+                <form action="textfield" class="formclass">
+                    <input type="text1" required placeholder="Name of Cardholder" class="cards">
+                </form>
+                <form action="textfield" class="formclass">
+                    <input type="text1" required placeholder="Card Number" class="cards">
+                </form>
+                <div class="smallbox">
+                    <form action="textfield" class="formclass">
+                        <input type="text2" required placeholder="Exp Date" class="cards2">
+                    </form>
+                    <form action="textfield" class="formclass">
+                        <input type="text2" required placeholder="CVC" class="cards2">
+                    </form>
+                </div>
+            </div>
+            <div class="buy">
+                <form action="payment.html">
+                    <input type="submit" class="buybutton" value="Pay Now">
+                </form>
+                <a href="index.html"><h5>Cancel order, back to movies</h5></a>
+            </div>
+        </div>
+    </div>
+  </main>
+
+</body>
+</html>
