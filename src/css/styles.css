@@ -1,12 +1,6 @@
 @import url("./reset.css");
 @import url("./variables.css");
 @import url("./header.css");
-@import url("./about.css");
-@import url("./checkout.css");
-@import url("./contact.css");
-@import url("./formsuccess.css");
-@import url("./info.css");
-@import url("./payment.css");
 
 * {
   margin: 0;
